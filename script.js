@@ -14,8 +14,8 @@ require([
 
   const view = new MapView({
     map: map,
-    center: [-111.7579390, 43.811641], //Longitude, latitude for Rexburg: [-111.791793, 43.821431]
-    zoom: 17,
+    center: [-111.791793, 43.821431], //Longitude, latitude for Rexburg: [-111.791793, 43.821431]
+    zoom: 12,
     container: "viewDiv",
   });
 
@@ -25,8 +25,8 @@ require([
   const point = {
     //Create a point
     type: "point",
-    longitude: -111.977581,
-    latitude: 43.697315,
+    longitude: -111.809485,
+    latitude: 43.802464,
   };
   const simpleMarkerSymbol = {
     type: "simple-marker",
@@ -123,16 +123,55 @@ require([
       [-111.7579390, 43.838228], //Longitude, latitude 36
       [-111.7579390, 43.833228], //Longitude, latitude 37
       [-111.7580550, 43.831458], //Longitude, latitude 38
-      [-111.7579390, 43.811641], //Longitude, latitude 39
+      [-111.7580490, 43.811599], //Longitude, latitude 39
+      [-111.7621890, 43.811599], //Longitude, latitude 40
+      [-111.7630250, 43.810699], //Longitude, latitude 41
+      [-111.7630450, 43.807986], //Longitude, latitude 42
+      [-111.7680450, 43.807986], //Longitude, latitude 43
+      [-111.7680450, 43.804356], //Longitude, latitude 44
+      [-111.7730550, 43.804356], //Longitude, latitude 45
+      [-111.7730690, 43.800756], //Longitude, latitude 46
+      [-111.7680690, 43.800756], //Longitude, latitude 47
+      [-111.7680690, 43.797156], //Longitude, latitude 48
+      [-111.7815500, 43.797156], //Longitude, latitude 49
+      [-111.7815500, 43.798006], //Longitude, latitude 50
+      [-111.7867700, 43.801826], //Longitude, latitude 51
+      [-111.7879780, 43.801826], //Longitude, latitude 52
+      [-111.7879780, 43.797156], //Longitude, latitude 53
+      [-111.7955080, 43.797186], //Longitude, latitude 54
+      [-111.7955180, 43.802616], //Longitude, latitude 55
+      [-111.7980080, 43.802596], //Longitude, latitude 56
+      [-111.7980080, 43.800756], //Longitude, latitude 57
+      [-111.8140831, 43.800786], //Longitude, latitude 58
+      [-111.8158931, 43.797186], //Longitude, latitude 59
+      [-111.8180531, 43.797186], //Longitude, latitude 60
+      [-111.8190531, 43.794186], //Longitude, latitude 61
+      [-111.8298400, 43.793586], //Longitude, latitude 62
+      [-111.8298400, 43.797186], //Longitude, latitude 63
+      [-111.8279400, 43.797186], //Longitude, latitude 64
+      [-111.8280115, 43.811656], //Longitude, latitude 65
+      [-111.8329715, 43.811656], //Longitude, latitude 66
+      [-111.8329715, 43.818856], //Longitude, latitude 67
+      [-111.8367915, 43.818856], //Longitude, latitude 68
+      [-111.8367915, 43.821976], //Longitude, latitude 69
+      [-111.8332615, 43.821976], //Longitude, latitude 70
+      [-111.8332615, 43.822806], //Longitude, latitude 71
+      [-111.8279515, 43.823476], //Longitude, latitude 72
+      [-111.8279515, 43.818843], //Longitude, latitude 73
+      [-111.8180205, 43.818843], //Longitude, latitude 74
+      [-111.817961, 43.826055], //Longitude, latitude 75
 
-   ],
+      [-111.810216, 43.826100], //Longitude, latitude 76
+      [-111.810648, 43.836929], //Longitude, latitude 77
+      [-111.818048, 43.836929], //Longitude, latitude 78
+    ],
   };
 
   const simpleFillSymbol = {
     type: "simple-fill",
-    color: [227, 139, 79, 0.3], // Orange, opacity 30%
+    color: [227, 139, 79, 0.15], // Orange, opacity 30%
     outline: {
-      color: [255, 255, 255],
+      color: [255, 153, 55],
       width: 1,
     },
   };
@@ -143,7 +182,7 @@ require([
   };
   const attributes = {
     Name: "Graphic",
-    Description: "Madison County",
+    Description: "City of Rexburg",
   };
 
   const polygonGraphic = new Graphic({
