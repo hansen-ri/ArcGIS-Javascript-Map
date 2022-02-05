@@ -5,7 +5,7 @@ Set out to get my hands dirty in the ARC GIS Mapping tools. The goal was to buil
 The map displays an outline of the Madison County boundaries along with a polygon of the City of Rexburg boundaries. Inside of Rexburg the map holds points/markers that save different locations of various local businesses.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/RWlGQQITtqw)
 
 # Development Environment
 
