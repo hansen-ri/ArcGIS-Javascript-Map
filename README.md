@@ -17,7 +17,6 @@ The map displays an outline of the Madison County boundaries along with a polygo
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Esri Online Community](https://community.esri.com/)
 * [ArcGIS Developer Documentation](https://developers.arcgis.com/documentation/mapping-apis-and-services/tutorials/)
 * [W3Schools](https://www.w3schools.com/js/)
